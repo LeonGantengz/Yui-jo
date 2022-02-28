@@ -10,7 +10,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "irfanhariyanto",
+    "engines": {
+    "node": "16.x"
+    },
+  "author": "LeonGanz",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys-md": "^4.0.1",
