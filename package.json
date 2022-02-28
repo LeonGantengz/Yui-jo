@@ -3,18 +3,17 @@
   "version": "1.0.0",
   "description": "Simple whatsapp bot with multi device.",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-    "engines": {
-    "node": "16.x"
-    },
-  "author": "LeonGanz",
+  "author": "irfanhariyanto",
   "license": "MIT",
   "dependencies": {
-    "@adiwajshing/baileys-md": "^4.0.1",
+    "@adiwajshing/baileys-md": "github:adiwajshing/baileys",
     "awesome-phonenumber": "^2.64.0",
     "axios": "^0.24.0",
     "chalk": "^4.1.2",
